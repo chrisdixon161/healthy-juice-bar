@@ -1,0 +1,11 @@
+/* npx tailwindcss -i ./custom.css -o ./tailwind.css to re-generate Tailwind file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+@layer components {
+	.nav-link {
+		@apply text-gray-200 hover:bg-gray-700 hover:text-white p-2 rounded;
+	}
+}
